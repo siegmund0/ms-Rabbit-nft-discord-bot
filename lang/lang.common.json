@@ -1,6 +1,6 @@
 {
     "bot": {
-        "name": "My Bot"
+        "name": "NFT Prices"
     },
     "commands": {
         "dev": "dev",
