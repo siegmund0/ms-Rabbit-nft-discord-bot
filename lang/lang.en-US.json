@@ -73,6 +73,64 @@
                     }
                 ]
             },
+            "cryptoMinesEternal": {
+                "description": "CryptoMines Eternal",
+                "fields": [
+                    {
+                        "name": "Prices",
+                        "value": [
+                            "**USD Price**: $ {{USD_PRICE}}",
+                            "**BNB Price**: BNB {{BNB_PRICE}}"
+                        ]
+                    },
+                    {
+                        "name": "Information",
+                        "value": [
+                            "**Token**: {{TOKEN}}",
+                            "**Game**: {{TOKEN_NAME}}",
+                            "**Plataform**: {{PLATAFORM}}",
+                            "**Contract Address**: {{CONTRACT_ADDRESS}}",
+                            "**Total Supply**: {{TOTAL_SUPPLY}}"
+                        ]
+                    },
+                    {
+                        "name": "Links",
+                        "value": [
+                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Trade Url**: {{TRADE_URL}}"
+                        ]
+                    }
+                ]
+            },
+            "blockFarm": {
+                "description": "Block Farm Club",
+                "fields": [
+                    {
+                        "name": "Prices",
+                        "value": [
+                            "**USD Price**: $ {{USD_PRICE}}",
+                            "**BNB Price**: BNB {{BNB_PRICE}}"
+                        ]
+                    },
+                    {
+                        "name": "Information",
+                        "value": [
+                            "**Token**: {{TOKEN}}",
+                            "**Game**: {{TOKEN_NAME}}",
+                            "**Plataform**: {{PLATAFORM}}",
+                            "**Contract Address**: {{CONTRACT_ADDRESS}}",
+                            "**Total Supply**: {{TOTAL_SUPPLY}}"
+                        ]
+                    },
+                    {
+                        "name": "Links",
+                        "value": [
+                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Trade Url**: {{TRADE_URL}}"
+                        ]
+                    }
+                ]
+            },
             "info": {
                 "title": "{{COM:bot.name}} - Info",
                 "fields": [
@@ -212,7 +270,8 @@
             "info": "{{COM:commandDescs.info}}",
             "link": "{{COM:commandDescs.link}}",
             "test": "{{COM:commandDescs.test}}",
-            "translate": "{{COM:commandDescs.translate}}"
+            "translate": "{{COM:commandDescs.translate}}",
+            "cryptomines": "{{COM:commandDescs.cryptomines}}"
         },
         "lists": {
             "languageItem": "**{{LANGUAGE_NAME}}** (`{{LANGUAGE_KEYWORD}}`)"

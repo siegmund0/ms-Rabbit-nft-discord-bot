@@ -3,11 +3,15 @@
         "displayEmbeds": {
             "welcome": {
                 "title": "Thank you for using {{COM:bot.name}}!",
-                "description": ["{{REF:bot.description}}"],
+                "description": [
+                    "{{REF:bot.description}}"
+                ],
                 "fields": [
                     {
                         "name": "Important {{REF:fields.commands}}",
-                        "value": ["**/{{COM:commands.help}}** - {{REF:commandDescs.help}}"]
+                        "value": [
+                            "**/{{COM:commands.help}}** - {{REF:commandDescs.help}}"
+                        ]
                     },
                     {
                         "name": "{{REF:fields.links}}",
@@ -41,12 +45,70 @@
                 ]
             },
             "test": {
-                "description": "Test command works!"
+                "description": "Test command works!",
+                "fields": [
+                    {
+                        "name": "Prices",
+                        "value": [
+                            "**USD Price**: $ {{USD_PRICE}}",
+                            "**BNB Price**: BNB {{BNB_PRICE}}"
+                        ]
+                    },
+                    {
+                        "name": "Information",
+                        "value": [
+                            "**Token**: {{TOKEN}}",
+                            "**Game**: {{TOKEN_NAME}}",
+                            "**Plataform**: {{PLATAFORM}}",
+                            "**Contract Address**: {{CONTRACT_ADDRESS}}",
+                            "**Total Supply**: {{TOTAL_SUPPLY}}"
+                        ]
+                    },
+                    {
+                        "name": "Links",
+                        "value": [
+                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Trade Url**: {{TRADE_URL}}"
+                        ]
+                    }
+                ]
+            },
+            "cryptoMinesEternal": {
+                "description": "CryptoMines Eternal",
+                "fields": [
+                    {
+                        "name": "Prices",
+                        "value": [
+                            "**USD Price**: $ {{USD_PRICE}}",
+                            "**BNB Price**: BNB {{BNB_PRICE}}"
+                        ]
+                    },
+                    {
+                        "name": "Information",
+                        "value": [
+                            "**Token**: {{TOKEN}}",
+                            "**Game**: {{TOKEN_NAME}}",
+                            "**Plataform**: {{PLATAFORM}}",
+                            "**Contract Address**: {{CONTRACT_ADDRESS}}",
+                            "**Total Supply**: {{TOTAL_SUPPLY}}"
+                        ]
+                    },
+                    {
+                        "name": "Links",
+                        "value": [
+                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Trade Url**: {{TRADE_URL}}"
+                        ]
+                    }
+                ]
             },
             "info": {
                 "title": "{{COM:bot.name}} - Info",
                 "fields": [
-                    { "name": "Author", "value": "{{REF:links.authorEmbed}}" },
+                    {
+                        "name": "Ignacio Gonzalez",
+                        "value": "{{REF:links.authorEmbed}}"
+                    },
                     {
                         "name": "{{REF:fields.links}}",
                         "value": [
@@ -58,7 +120,9 @@
                     },
                     {
                         "name": "Created With",
-                        "value": ["{{REF:links.templateEmbed}}"]
+                        "value": [
+                            "{{REF:links.templateEmbed}}"
+                        ]
                     }
                 ]
             },
@@ -156,7 +220,7 @@
             }
         },
         "metaRegexes": {
-            "language": "/\\b({{REF:meta.language}}|en Pirate|Pirate)\\b/i"
+            "language": "/\\b({{REF:meta.language}}|en US|English)\\b/i"
         },
         "channelRegexes": {
             "bot": "/bot|command|cmd/i"
@@ -164,8 +228,8 @@
     },
     "refs": {
         "meta": {
-            "language": "en-Pirate",
-            "languageDisplay": "Pirate",
+            "language": "en-US",
+            "languageDisplay": "English",
             "translators": "[TranslatorName#1234](https://github.com/)"
         },
         "bot": {
@@ -177,7 +241,8 @@
             "info": "{{COM:commandDescs.info}}",
             "link": "{{COM:commandDescs.link}}",
             "test": "{{COM:commandDescs.test}}",
-            "translate": "{{COM:commandDescs.translate}}"
+            "translate": "{{COM:commandDescs.translate}}",
+            "cryptomines": "{{COM:commandDescs.cryptomines}}"
         },
         "lists": {
             "languageItem": "**{{LANGUAGE_NAME}}** (`{{LANGUAGE_KEYWORD}}`)"

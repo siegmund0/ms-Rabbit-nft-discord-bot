@@ -11,6 +11,7 @@ import {
     LinkCommand,
     TestCommand,
     TranslateCommand,
+    CryptoMinesEthernalCommand,
 } from './commands';
 import {
     CommandHandler,
@@ -46,6 +47,7 @@ async function start(): Promise<void> {
         new LinkCommand(),
         new TestCommand(),
         new TranslateCommand(),
+        new CryptoMinesEthernalCommand(),
     ].sort((a, b) => (a.data.name > b.data.name ? 1 : -1));
 
     // Event handlers

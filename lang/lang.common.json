@@ -8,7 +8,9 @@
         "info": "info",
         "link": "link",
         "test": "test",
-        "translate": "translate"
+        "translate": "translate",
+        "cryptomines": "cryptomines",
+        "blockfarm": "blockfarm"
     },
     "commandDescs": {
         "dev": "View developer info.",
@@ -16,7 +18,9 @@
         "info": "View bot info.",
         "link": "Get links to invite, support, etc.",
         "test": "Run the test command.",
-        "translate": "View translation info."
+        "translate": "View translation info.",
+        "cryptomines": "View CryptoMines Info",
+        "blockfarm": "View Block Farm Info"
     },
     "colors": {
         "success": "#00ff83",
