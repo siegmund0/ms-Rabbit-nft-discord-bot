@@ -2,13 +2,13 @@
     "data": {
         "displayEmbeds": {
             "welcome": {
-                "title": "Thank you for using {{COM:bot.name}}!",
+                "title": "Gracias por usar {{COM:bot.name}}!",
                 "description": [
                     "{{REF:bot.description}}"
                 ],
                 "fields": [
                     {
-                        "name": "Important {{REF:fields.commands}}",
+                        "name": "Importante {{REF:fields.commands}}",
                         "value": [
                             "**/{{COM:commands.help}}** - {{REF:commandDescs.help}}"
                         ]
@@ -49,43 +49,43 @@
                 ]
             },
             "test": {
-                "description": "Test command works!"
+                "description": "El comando test funciona correctamente!"
             },
             "cryptoMinesEternal": {
                 "description": "CryptoMines Eternal",
                 "fields": [
                     {
-                        "name": "Prices",
+                        "name": "Precios",
                         "value": [
-                            "**USD Current Price**: $ {{USD_PRICE}}",
-                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
+                            "**USD Precio actual**: $ {{USD_PRICE}}",
+                            "**BNB Precio actual**: BNB {{BNB_PRICE}}"
                         ]
                     },
                     {
-                        "name": "General Information",
+                        "name": "Informacion General",
                         "value": [
                             "**Token**: {{TOKEN}}",
-                            "**Game**: {{TOKEN_NAME}}",
-                            "**Plataform**: {{PLATAFORM}}",
-                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
+                            "**Juego**: {{TOKEN_NAME}}",
+                            "**Plataforma**: {{PLATAFORM}}",
+                            "**Direccion Contrato**: {{CONTRACT_ADDRESS}}"
                         ]
                     },
                     {
-                        "name": "Market Information",
+                        "name": "Informacion de mercado",
                         "value": [
-                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
-                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
-                            "**Market Cap**: $ {{MARKET_CAP}}",
-                            "**Total Supply**: {{TOTAL_SUPPLY}}",
-                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
+                            "**Cambio de precio 24 Hs**: % {{PRICE_CHANGE_24HS}}",
+                            "**Cambio de precio 7 D**: % {{PRICE_CHANGE_7D}}",
+                            "**Cap de mercado**: $ {{MARKET_CAP}}",
+                            "**Supply totales**: {{TOTAL_SUPPLY}}",
+                            "**Supply circulando**: {{CIRCULATING_SUPPLY}}"
                         ]
                     },
                     {
                         "name": "Links",
                         "value": [
-                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Pagina bscscan**: {{BSCSCAN_PAGE}}",
                             "**Trade Url**: {{TRADE_URL}}",
-                            "**Home Page**: {{HOMEPAGE}}",
+                            "**Pagina principal**: {{HOMEPAGE}}",
                             "**GitHub**: {{REPOSITORY}}"
                         ]
                     }
@@ -95,37 +95,37 @@
                 "description": "Plant vs Undead",
                 "fields": [
                     {
-                        "name": "Prices",
+                        "name": "Precios",
                         "value": [
-                            "**USD Current Price**: $ {{USD_PRICE}}",
-                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
+                            "**USD Precio actual**: $ {{USD_PRICE}}",
+                            "**BNB Precio actual**: BNB {{BNB_PRICE}}"
                         ]
                     },
                     {
-                        "name": "General Information",
+                        "name": "Informacion General",
                         "value": [
                             "**Token**: {{TOKEN}}",
-                            "**Game**: {{TOKEN_NAME}}",
-                            "**Plataform**: {{PLATAFORM}}",
-                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
+                            "**Juego**: {{TOKEN_NAME}}",
+                            "**Plataforma**: {{PLATAFORM}}",
+                            "**Direccion Contrato**: {{CONTRACT_ADDRESS}}"
                         ]
                     },
                     {
-                        "name": "Market Information",
+                        "name": "Informacion de mercado",
                         "value": [
-                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
-                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
-                            "**Market Cap**: $ {{MARKET_CAP}}",
-                            "**Total Supply**: {{TOTAL_SUPPLY}}",
-                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
+                            "**Cambio de precio 24 Hs**: % {{PRICE_CHANGE_24HS}}",
+                            "**Cambio de precio 7 D**: % {{PRICE_CHANGE_7D}}",
+                            "**Cap de mercado**: $ {{MARKET_CAP}}",
+                            "**Supply totales**: {{TOTAL_SUPPLY}}",
+                            "**Supply circulando**: {{CIRCULATING_SUPPLY}}"
                         ]
                     },
                     {
                         "name": "Links",
                         "value": [
-                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Pagina bscscan**: {{BSCSCAN_PAGE}}",
                             "**Trade Url**: {{TRADE_URL}}",
-                            "**Home Page**: {{HOMEPAGE}}",
+                            "**Pagina principal**: {{HOMEPAGE}}",
                             "**GitHub**: {{REPOSITORY}}"
                         ]
                     }
@@ -135,37 +135,37 @@
                 "description": "Crypto Cars World",
                 "fields": [
                     {
-                        "name": "Prices",
+                        "name": "Precios",
                         "value": [
-                            "**USD Current Price**: $ {{USD_PRICE}}",
-                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
+                            "**USD Precio actual**: $ {{USD_PRICE}}",
+                            "**BNB Precio actual**: BNB {{BNB_PRICE}}"
                         ]
                     },
                     {
-                        "name": "General Information",
+                        "name": "Informacion General",
                         "value": [
                             "**Token**: {{TOKEN}}",
-                            "**Game**: {{TOKEN_NAME}}",
-                            "**Plataform**: {{PLATAFORM}}",
-                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
+                            "**Juego**: {{TOKEN_NAME}}",
+                            "**Plataforma**: {{PLATAFORM}}",
+                            "**Direccion Contrato**: {{CONTRACT_ADDRESS}}"
                         ]
                     },
                     {
-                        "name": "Market Information",
+                        "name": "Informacion de mercado",
                         "value": [
-                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
-                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
-                            "**Market Cap**: $ {{MARKET_CAP}}",
-                            "**Total Supply**: {{TOTAL_SUPPLY}}",
-                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
+                            "**Cambio de precio 24 Hs**: % {{PRICE_CHANGE_24HS}}",
+                            "**Cambio de precio 7 D**: % {{PRICE_CHANGE_7D}}",
+                            "**Cap de mercado**: $ {{MARKET_CAP}}",
+                            "**Supply totales**: {{TOTAL_SUPPLY}}",
+                            "**Supply circulando**: {{CIRCULATING_SUPPLY}}"
                         ]
                     },
                     {
                         "name": "Links",
                         "value": [
-                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Pagina bscscan**: {{BSCSCAN_PAGE}}",
                             "**Trade Url**: {{TRADE_URL}}",
-                            "**Home Page**: {{HOMEPAGE}}",
+                            "**Pagina principal**: {{HOMEPAGE}}",
                             "**GitHub**: {{REPOSITORY}}"
                         ]
                     }
@@ -175,44 +175,44 @@
                 "description": "Battle Hero",
                 "fields": [
                     {
-                        "name": "Prices",
+                        "name": "Precios",
                         "value": [
-                            "**USD Current Price**: $ {{USD_PRICE}}",
-                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
+                            "**USD Precio actual**: $ {{USD_PRICE}}",
+                            "**BNB Precio actual**: BNB {{BNB_PRICE}}"
                         ]
                     },
                     {
-                        "name": "General Information",
+                        "name": "Informacion General",
                         "value": [
                             "**Token**: {{TOKEN}}",
-                            "**Game**: {{TOKEN_NAME}}",
-                            "**Plataform**: {{PLATAFORM}}",
-                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
+                            "**Juego**: {{TOKEN_NAME}}",
+                            "**Plataforma**: {{PLATAFORM}}",
+                            "**Direccion Contrato**: {{CONTRACT_ADDRESS}}"
                         ]
                     },
                     {
-                        "name": "Market Information",
+                        "name": "Informacion de mercado",
                         "value": [
-                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
-                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
-                            "**Market Cap**: $ {{MARKET_CAP}}",
-                            "**Total Supply**: {{TOTAL_SUPPLY}}",
-                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
+                            "**Cambio de precio 24 Hs**: % {{PRICE_CHANGE_24HS}}",
+                            "**Cambio de precio 7 D**: % {{PRICE_CHANGE_7D}}",
+                            "**Cap de mercado**: $ {{MARKET_CAP}}",
+                            "**Supply totales**: {{TOTAL_SUPPLY}}",
+                            "**Supply circulando**: {{CIRCULATING_SUPPLY}}"
                         ]
                     },
                     {
                         "name": "Links",
                         "value": [
-                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Pagina bscscan**: {{BSCSCAN_PAGE}}",
                             "**Trade Url**: {{TRADE_URL}}",
-                            "**Home Page**: {{HOMEPAGE}}",
+                            "**Pagina principal**: {{HOMEPAGE}}",
                             "**GitHub**: {{REPOSITORY}}"
                         ]
                     }
                 ]
             },
             "info": {
-                "title": "{{COM:bot.name}} - Info",
+                "title": "{{COM:bot.name}} - Informacion",
                 "fields": [
                     {
                         "name": "Ignacio Gonzalez",
@@ -228,7 +228,7 @@
                         ]
                     },
                     {
-                        "name": "Created With",
+                        "name": "Creado con",
                         "value": [
                             "{{REF:links.templateEmbed}}"
                         ]
@@ -236,7 +236,7 @@
                 ]
             },
             "translate": {
-                "title": "{{COM:bot.name}} - Translations",
+                "title": "{{COM:bot.name}} - Traducciones",
                 "description": "Thank you to our translators who have made it possible for {{COM:bot.name}} to be used in the following languages. If you are interested in providing a translation, please contact the staff in our [support server]({{COM:links.support}})."
             },
             "dev": {
@@ -259,11 +259,11 @@
                         ]
                     },
                     {
-                        "name": "Memory",
+                        "name": "Memoria",
                         "value": [
                             "**RSS**: {{RSS_SIZE}} ({{RSS_SIZE_PER_SERVER}}/Server)",
                             "**Heap**: {{HEAP_TOTAL_SIZE}} ({{HEAP_TOTAL_SIZE_PER_SERVER}}/Server)",
-                            "**Used**: {{HEAP_USED_SIZE}} ({{HEAP_USED_SIZE_PER_SERVER}}/Server)"
+                            "**Usado**: {{HEAP_USED_SIZE}} ({{HEAP_USED_SIZE_PER_SERVER}}/Server)"
                         ]
                     },
                     {
@@ -278,39 +278,39 @@
                 ]
             },
             "invite": {
-                "title": "{{COM:bot.name}} - Invite",
-                "description": "Click [here]({{COM:links.invite}}) to invite {{COM:bot.name}} to a server!"
+                "title": "{{COM:bot.name}} - Invitar",
+                "description": "Click [aqui]({{COM:links.invite}}) para invitarme {{COM:bot.name}} en tu servidor!"
             },
             "docs": {
                 "title": "{{COM:bot.name}} - Documentation",
-                "description": "Click [here]({{COM:links.docs}}/) to view the bot documentation."
+                "description": "Click [aqui]({{COM:links.docs}}/) para ver la documentacion del bot."
             },
             "vote": {
-                "title": "{{COM:bot.name}} - Vote",
-                "description": "Support {{COM:bot.name}} by voting [here]({{COM:links.vote}})!"
+                "title": "{{COM:bot.name}} - Votar",
+                "description": "Ayuda a {{COM:bot.name}} botando [aqui]({{COM:links.vote}})!"
             },
             "support": {
-                "title": "{{COM:bot.name}} - Support",
-                "description": "Need help? Join our [support server]({{COM:links.support}})!"
+                "title": "{{COM:bot.name}} - Ayuda",
+                "description": "Necesitas ayuda? Unete a [support server]({{COM:links.support}})!"
             }
         },
         "validationEmbeds": {
             "devOnlyCommand": {
-                "description": "This command can only be used by developers.",
+                "description": "Este comando solo puede ser usado por los desarrolladores.",
                 "color": "{{COM:colors.warning}}"
             },
             "serverOnlyCommand": {
-                "description": "This command can only be used in a server.",
+                "description": "Este comando solo puede ser usado en el servidor.",
                 "color": "{{COM:colors.warning}}"
             },
             "permissionRequired": {
-                "description": "You don't have permission to run that command!",
+                "description": "No tienes permisos para ejecutar este comando!",
                 "color": "{{COM:colors.warning}}"
             }
         },
         "errorEmbeds": {
             "command": {
-                "description": "Something went wrong!",
+                "description": "Algo salio mal!",
                 "fields": [
                     {
                         "name": "Error code",
@@ -324,12 +324,12 @@
                 "color": "{{COM:colors.error}}"
             },
             "startupInProcess": {
-                "description": "{{COM:bot.name}} is still starting up. Try again later.",
+                "description": "{{COM:bot.name}} se esta iniciando. Prueba luego!.",
                 "color": "{{COM:colors.warning}}"
             }
         },
         "metaRegexes": {
-            "language": "/\\b({{REF:meta.language}}|en US|English)\\b/i"
+            "language": "/\\b({{REF:meta.language}}|es ES|Español)\\b/i"
         },
         "channelRegexes": {
             "bot": "/bot|command|cmd/i"
@@ -337,12 +337,12 @@
     },
     "refs": {
         "meta": {
-            "language": "en-US",
-            "languageDisplay": "English",
-            "translators": "[TranslatorName#1234](https://github.com/)"
+            "language": "es-EN",
+            "languageDisplay": "Spanish",
+            "translators": "[oaki#2582](https://github.com/siegmund0)"
         },
         "bot": {
-            "description": "Get information on the most famous NFT cryptocurrencies."
+            "description": "Obtenga informacion de las Crypto Monedas mas famosas"
         },
         "commandDescs": {
             "dev": "{{COM:commandDescs.dev}}",
@@ -359,26 +359,26 @@
             "languageItem": "**{{LANGUAGE_NAME}}** (`{{LANGUAGE_KEYWORD}}`)"
         },
         "fields": {
-            "commands": "Commands",
+            "commands": "Comandos",
             "links": "Links"
         },
         "other": {
             "na": "N/A"
         },
         "links": {
-            "inviteEmbed": "[Invite {{COM:bot.name}} to a Server!]({{COM:links.invite}})",
-            "docsEmbed": "[View Documentation]({{COM:links.docs}})",
-            "voteEmbed": "[Vote for {{COM:bot.name}}!]({{COM:links.vote}})",
-            "supportEmbed": "[Join Support Discord]({{COM:links.support}})",
+            "inviteEmbed": "[Invitar {{COM:bot.name}} al servidor!]({{COM:links.invite}})",
+            "docsEmbed": "[Ver Documentacion]({{COM:links.docs}})",
+            "voteEmbed": "[Vota por {{COM:bot.name}}!]({{COM:links.vote}})",
+            "supportEmbed": "[Ingresa al discord de soporte]({{COM:links.support}})",
             "authorEmbed": "[NFT-Info]({{COM:links.author}})",
-            "sourceEmbed": "[View Source Code]({{COM:links.source}})",
+            "sourceEmbed": "[Ver codigo]({{COM:links.source}})",
             "templateEmbed": "[Discord Bot TypeScript Template]({{COM:links.template}})"
         },
         "messages": {
             "missingEmbedPerms": [
-                "I don't have all permissions required to send messages here!",
+                "No tengo todos los permisos necesarios para enviar mensajes aquí!",
                 "",
-                "Please allow me to **View Channel**, **Send Messages**, and **Embed Links** in this channel."
+                "Permítame **Ver canal**, **Enviar mensajes** e **Insertar enlaces** en este canal."
             ]
         }
     }
