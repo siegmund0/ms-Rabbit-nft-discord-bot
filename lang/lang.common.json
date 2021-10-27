@@ -1,6 +1,6 @@
 {
     "bot": {
-        "name": "NFT Prices"
+        "name": "NFT Info"
     },
     "commands": {
         "dev": "dev",
@@ -10,7 +10,9 @@
         "test": "test",
         "translate": "translate",
         "cryptomines": "cryptomines",
-        "plantvsundead": "plantvsundead"
+        "plantvsundead": "plantvsundead",
+        "cryptocarsworld": "cryptocarsworld",
+        "battlehero": "battlehero"
     },
     "commandDescs": {
         "dev": "View developer info.",
@@ -20,8 +22,9 @@
         "test": "Run the test command.",
         "translate": "View translation info.",
         "cryptomines": "View CryptoMines Info",
-        "blockfarm": "View Block Farm Info",
-        "plantvsundead": "View Plant vs Undead Info"
+        "plantvsundead": "View Plant vs Undead Info",
+        "cryptocarsworld": "View Crypto Cars World Info",
+        "battlehero": "View Battle Hero Info"
     },
     "colors": {
         "success": "#00ff83",
@@ -29,13 +32,13 @@
         "error": "#ff4a4a"
     },
     "links": {
-        "invite": "https://discord.com/",
+        "invite": "https://discord.com/api/oauth2/authorize?client_id=902249456072818708&permissions=8&scope=bot%20applications.commands",
         "docs": "https://top.gg/",
         "vote": "https://top.gg/",
-        "support": "https://support.discord.com/",
-        "stream": "https://www.twitch.tv/novakevin",
-        "author": "https://github.com/",
-        "source": "https://github.com/",
+        "support": "https://discord.gg/9mQjN9TbkZ",
+        "stream": "https://www.twitch.tv/tatochemes",
+        "author": "https://github.com/siegmund0",
+        "source": "https://github.com/siegmund0/ms-Rabbit-nft-discord-bot",
         "template": "https://github.com/KevinNovak/Discord-Bot-TypeScript-Template"
     }
 }

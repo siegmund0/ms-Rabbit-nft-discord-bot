@@ -31,7 +31,11 @@
                         "name": "{{REF:fields.commands}}",
                         "value": [
                             "**/{{COM:commands.test}}** - {{REF:commandDescs.test}}",
-                            "**/{{COM:commands.info}}** - {{REF:commandDescs.info}}"
+                            "**/{{COM:commands.info}}** - {{REF:commandDescs.info}}",
+                            "**/{{COM:commands.cryptomines}}** - {{REF:commandDescs.cryptomines}}",
+                            "**/{{COM:commands.plantvsundead}}** - {{REF:commandDescs.plantvsundead}}",
+                            "**/{{COM:commands.cryptocarsworld}}** - {{REF:commandDescs.plantvsundead}}",
+                            "**/{{COM:commands.battlehero}}** - {{REF:commandDescs.battlehero}}"
                         ]
                     },
                     {
@@ -45,44 +49,7 @@
                 ]
             },
             "test": {
-                "description": "Test command works!",
-                "fields": [
-                    {
-                        "name": "Prices",
-                        "value": [
-                            "**USD Current Price**: $ {{USD_PRICE}}",
-                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
-                        ]
-                    },
-                    {
-                        "name": "General Information",
-                        "value": [
-                            "**Token**: {{TOKEN}}",
-                            "**Game**: {{TOKEN_NAME}}",
-                            "**Plataform**: {{PLATAFORM}}",
-                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
-                        ]
-                    },
-                    {
-                        "name": "Market Information",
-                        "value": [
-                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
-                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
-                            "**Market Cap**: $ {{MARKET_CAP}}",
-                            "**Total Supply**: {{TOTAL_SUPPLY}}",
-                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
-                        ]
-                    },
-                    {
-                        "name": "Links",
-                        "value": [
-                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
-                            "**Trade Url**: {{TRADE_URL}}",
-                            "**Home Page**: {{HOMEPAGE}}",
-                            "**GitHub**: {{REPOSITORY}}"
-                        ]
-                    }
-                ]
+                "description": "Test command works!"
             },
             "cryptoMinesEternal": {
                 "description": "CryptoMines Eternal",
@@ -126,6 +93,86 @@
             },
             "plantvsundead": {
                 "description": "Plant vs Undead",
+                "fields": [
+                    {
+                        "name": "Prices",
+                        "value": [
+                            "**USD Current Price**: $ {{USD_PRICE}}",
+                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
+                        ]
+                    },
+                    {
+                        "name": "General Information",
+                        "value": [
+                            "**Token**: {{TOKEN}}",
+                            "**Game**: {{TOKEN_NAME}}",
+                            "**Plataform**: {{PLATAFORM}}",
+                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
+                        ]
+                    },
+                    {
+                        "name": "Market Information",
+                        "value": [
+                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
+                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
+                            "**Market Cap**: $ {{MARKET_CAP}}",
+                            "**Total Supply**: {{TOTAL_SUPPLY}}",
+                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
+                        ]
+                    },
+                    {
+                        "name": "Links",
+                        "value": [
+                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Trade Url**: {{TRADE_URL}}",
+                            "**Home Page**: {{HOMEPAGE}}",
+                            "**GitHub**: {{REPOSITORY}}"
+                        ]
+                    }
+                ]
+            },
+            "cryptocarsworld": {
+                "description": "Crypto Cars World",
+                "fields": [
+                    {
+                        "name": "Prices",
+                        "value": [
+                            "**USD Current Price**: $ {{USD_PRICE}}",
+                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
+                        ]
+                    },
+                    {
+                        "name": "General Information",
+                        "value": [
+                            "**Token**: {{TOKEN}}",
+                            "**Game**: {{TOKEN_NAME}}",
+                            "**Plataform**: {{PLATAFORM}}",
+                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
+                        ]
+                    },
+                    {
+                        "name": "Market Information",
+                        "value": [
+                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
+                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
+                            "**Market Cap**: $ {{MARKET_CAP}}",
+                            "**Total Supply**: {{TOTAL_SUPPLY}}",
+                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
+                        ]
+                    },
+                    {
+                        "name": "Links",
+                        "value": [
+                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Trade Url**: {{TRADE_URL}}",
+                            "**Home Page**: {{HOMEPAGE}}",
+                            "**GitHub**: {{REPOSITORY}}"
+                        ]
+                    }
+                ]
+            },
+            "battlehero": {
+                "description": "Battle Hero",
                 "fields": [
                     {
                         "name": "Prices",
@@ -295,7 +342,7 @@
             "translators": "[TranslatorName#1234](https://github.com/)"
         },
         "bot": {
-            "description": "{{REF:links.templateEmbed}} helps give developers a starting point for new Discord bots, so that much of the initial setup can be avoided and developers can instead focus on meaningful bot features."
+            "description": "Get information on the most famous NFT cryptocurrencies."
         },
         "commandDescs": {
             "dev": "{{COM:commandDescs.dev}}",
@@ -304,7 +351,9 @@
             "link": "{{COM:commandDescs.link}}",
             "test": "{{COM:commandDescs.test}}",
             "translate": "{{COM:commandDescs.translate}}",
-            "cryptomines": "{{COM:commandDescs.cryptomines}}"
+            "cryptomines": "{{COM:commandDescs.cryptomines}}",
+            "plantvsundead": "{{COM:commandDescs.plantvsundead}}",
+            "cryptocarsworld": "{{COM:commandDescs.cryptocarsworld}}"
         },
         "lists": {
             "languageItem": "**{{LANGUAGE_NAME}}** (`{{LANGUAGE_KEYWORD}}`)"
@@ -320,8 +369,8 @@
             "inviteEmbed": "[Invite {{COM:bot.name}} to a Server!]({{COM:links.invite}})",
             "docsEmbed": "[View Documentation]({{COM:links.docs}})",
             "voteEmbed": "[Vote for {{COM:bot.name}}!]({{COM:links.vote}})",
-            "supportEmbed": "[Join Support Server]({{COM:links.support}})",
-            "authorEmbed": "[My Name]({{COM:links.author}})",
+            "supportEmbed": "[Join Support Discord]({{COM:links.support}})",
+            "authorEmbed": "[NFT-Info]({{COM:links.author}})",
             "sourceEmbed": "[View Source Code]({{COM:links.source}})",
             "templateEmbed": "[Discord Bot TypeScript Template]({{COM:links.template}})"
         },
