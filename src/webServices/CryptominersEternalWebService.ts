@@ -1,12 +1,11 @@
 import axios from 'axios';
 
-export const BlockFarmClub = async (): Promise<any> => {
+export const CryptoMinesEthernalWebService = async (): Promise<any> => {
     try {
-        let url: string = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?id=12146';
+        let url: string = 'https://api.coingecko.com/api/v3/coins/cryptomines-eternal';
         let response = await axios.get(url, {
             headers: {
                 'Content-Type': 'application/json',
-                'X-CMC_PRO_API_KEY': '65fec7a5-bc73-4a11-81a4-268af54e077c'
             }
         });
         return response.data;

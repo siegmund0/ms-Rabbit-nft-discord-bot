@@ -6,3 +6,4 @@ export { LinkCommand } from './link-command';
 export { TestCommand } from './test-command';
 export { TranslateCommand } from './translate-command';
 export { CryptoMinesEthernalCommand } from './cryptoMines-command';
+export { PlantVsUndeadCommand } from './plantVsUndead-command';

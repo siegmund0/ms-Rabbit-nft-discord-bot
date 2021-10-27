@@ -1,11 +1,11 @@
 import axios from 'axios';
 
-export const CryptoMinesEthernal = async (): Promise<any> => {
+export const PlantVsUndeadWebService = async (): Promise<any> => {
     try {
-        let url: string = 'https://api.coingecko.com/api/v3/coins/cryptomines-eternal';
+        let url: string = 'https://api.coingecko.com/api/v3/coins/plant-vs-undead-token';
         let response = await axios.get(url, {
             headers: {
-                'Content-Type': 'application/json',
+                'Content-Type': 'application/json'
             }
         });
         return response.data;

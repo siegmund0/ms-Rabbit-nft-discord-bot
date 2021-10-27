@@ -10,7 +10,7 @@
         "test": "test",
         "translate": "translate",
         "cryptomines": "cryptomines",
-        "blockfarm": "blockfarm"
+        "plantvsundead": "plantvsundead"
     },
     "commandDescs": {
         "dev": "View developer info.",
@@ -20,7 +20,8 @@
         "test": "Run the test command.",
         "translate": "View translation info.",
         "cryptomines": "View CryptoMines Info",
-        "blockfarm": "View Block Farm Info"
+        "blockfarm": "View Block Farm Info",
+        "plantvsundead": "View Plant vs Undead Info"
     },
     "colors": {
         "success": "#00ff83",

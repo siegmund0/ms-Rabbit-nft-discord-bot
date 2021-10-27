@@ -6,10 +6,10 @@ import { MessageUtils } from '../utils';
 import { PlantVsUndeadWebService } from '../webServices/PlantVsUndeadWebService';
 import { Command } from './command';
 
-export class TestCommand implements Command {
+export class PlantVsUndeadCommand implements Command {
     public data: ApplicationCommandData = {
-        name: Lang.getCom('commands.test'),
-        description: Lang.getCom('commandDescs.test'),
+        name: Lang.getCom('commands.plantvsundead'),
+        description: Lang.getCom('commandDescs.plantvsundead'),
     };
     public requireDev = false;
     public requireGuild = false;
@@ -23,7 +23,7 @@ export class TestCommand implements Command {
         repository == null || undefined ? repository = 'Repository not found' : repository;
         await MessageUtils.sendIntr(
             intr,
-            Lang.getEmbed('displayEmbeds.test', data.lang(), {
+            Lang.getEmbed('displayEmbeds.plantvsundead', data.lang(), {
                 TOKEN: response.symbol,
                 TOKEN_NAME: response.name,
                 PLATAFORM: response.asset_platform_id,

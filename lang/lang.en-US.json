@@ -50,25 +50,36 @@
                     {
                         "name": "Prices",
                         "value": [
-                            "**USD Price**: $ {{USD_PRICE}}",
-                            "**BNB Price**: BNB {{BNB_PRICE}}"
+                            "**USD Current Price**: $ {{USD_PRICE}}",
+                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
                         ]
                     },
                     {
-                        "name": "Information",
+                        "name": "General Information",
                         "value": [
                             "**Token**: {{TOKEN}}",
                             "**Game**: {{TOKEN_NAME}}",
                             "**Plataform**: {{PLATAFORM}}",
-                            "**Contract Address**: {{CONTRACT_ADDRESS}}",
-                            "**Total Supply**: {{TOTAL_SUPPLY}}"
+                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
+                        ]
+                    },
+                    {
+                        "name": "Market Information",
+                        "value": [
+                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
+                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
+                            "**Market Cap**: $ {{MARKET_CAP}}",
+                            "**Total Supply**: {{TOTAL_SUPPLY}}",
+                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
                         ]
                     },
                     {
                         "name": "Links",
                         "value": [
                             "**Bscscan Page**: {{BSCSCAN_PAGE}}",
-                            "**Trade Url**: {{TRADE_URL}}"
+                            "**Trade Url**: {{TRADE_URL}}",
+                            "**Home Page**: {{HOMEPAGE}}",
+                            "**GitHub**: {{REPOSITORY}}"
                         ]
                     }
                 ]
@@ -79,54 +90,76 @@
                     {
                         "name": "Prices",
                         "value": [
-                            "**USD Price**: $ {{USD_PRICE}}",
-                            "**BNB Price**: BNB {{BNB_PRICE}}"
+                            "**USD Current Price**: $ {{USD_PRICE}}",
+                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
                         ]
                     },
                     {
-                        "name": "Information",
+                        "name": "General Information",
                         "value": [
                             "**Token**: {{TOKEN}}",
                             "**Game**: {{TOKEN_NAME}}",
                             "**Plataform**: {{PLATAFORM}}",
-                            "**Contract Address**: {{CONTRACT_ADDRESS}}",
-                            "**Total Supply**: {{TOTAL_SUPPLY}}"
+                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
+                        ]
+                    },
+                    {
+                        "name": "Market Information",
+                        "value": [
+                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
+                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
+                            "**Market Cap**: $ {{MARKET_CAP}}",
+                            "**Total Supply**: {{TOTAL_SUPPLY}}",
+                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
                         ]
                     },
                     {
                         "name": "Links",
                         "value": [
                             "**Bscscan Page**: {{BSCSCAN_PAGE}}",
-                            "**Trade Url**: {{TRADE_URL}}"
+                            "**Trade Url**: {{TRADE_URL}}",
+                            "**Home Page**: {{HOMEPAGE}}",
+                            "**GitHub**: {{REPOSITORY}}"
                         ]
                     }
                 ]
             },
-            "blockFarm": {
-                "description": "Block Farm Club",
+            "plantvsundead": {
+                "description": "Plant vs Undead",
                 "fields": [
                     {
                         "name": "Prices",
                         "value": [
-                            "**USD Price**: $ {{USD_PRICE}}",
-                            "**BNB Price**: BNB {{BNB_PRICE}}"
+                            "**USD Current Price**: $ {{USD_PRICE}}",
+                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
                         ]
                     },
                     {
-                        "name": "Information",
+                        "name": "General Information",
                         "value": [
                             "**Token**: {{TOKEN}}",
                             "**Game**: {{TOKEN_NAME}}",
                             "**Plataform**: {{PLATAFORM}}",
-                            "**Contract Address**: {{CONTRACT_ADDRESS}}",
-                            "**Total Supply**: {{TOTAL_SUPPLY}}"
+                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
+                        ]
+                    },
+                    {
+                        "name": "Market Information",
+                        "value": [
+                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
+                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
+                            "**Market Cap**: $ {{MARKET_CAP}}",
+                            "**Total Supply**: {{TOTAL_SUPPLY}}",
+                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
                         ]
                     },
                     {
                         "name": "Links",
                         "value": [
                             "**Bscscan Page**: {{BSCSCAN_PAGE}}",
-                            "**Trade Url**: {{TRADE_URL}}"
+                            "**Trade Url**: {{TRADE_URL}}",
+                            "**Home Page**: {{HOMEPAGE}}",
+                            "**GitHub**: {{REPOSITORY}}"
                         ]
                     }
                 ]
