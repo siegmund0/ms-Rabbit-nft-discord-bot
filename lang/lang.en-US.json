@@ -34,8 +34,10 @@
                             "**/{{COM:commands.info}}** - {{REF:commandDescs.info}}",
                             "**/{{COM:commands.cryptomines}}** - {{REF:commandDescs.cryptomines}}",
                             "**/{{COM:commands.plantvsundead}}** - {{REF:commandDescs.plantvsundead}}",
-                            "**/{{COM:commands.cryptocarsworld}}** - {{REF:commandDescs.plantvsundead}}",
-                            "**/{{COM:commands.battlehero}}** - {{REF:commandDescs.battlehero}}"
+                            "**/{{COM:commands.cryptocarsworld}}** - {{REF:commandDescs.cryptocarsworld}}",
+                            "**/{{COM:commands.battlehero}}** - {{REF:commandDescs.battlehero}}",
+                            "**/{{COM:commands.axieinfinity}}** - {{REF:commandDescs.axieinfinity}}",
+                            "**/{{COM:commands.bombcrypto}}** - {{REF:commandDescs.bombcrypto}}"
                         ]
                     },
                     {
@@ -433,7 +435,9 @@
             "translate": "{{COM:commandDescs.translate}}",
             "cryptomines": "{{COM:commandDescs.cryptomines}}",
             "plantvsundead": "{{COM:commandDescs.plantvsundead}}",
-            "cryptocarsworld": "{{COM:commandDescs.cryptocarsworld}}"
+            "cryptocarsworld": "{{COM:commandDescs.cryptocarsworld}}",
+            "axieinfinity": "{{COM:commandDescs.axieinfinity}}",
+            "bombcrypto": "{{COM:commandDescs.bombcrypto}}"
         },
         "lists": {
             "languageItem": "**{{LANGUAGE_NAME}}** (`{{LANGUAGE_KEYWORD}}`)"
