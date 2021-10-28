@@ -211,6 +211,46 @@
                     }
                 ]
             },
+            "bombcrypto": {
+                "description": "Bomb Crypto",
+                "fields": [
+                    {
+                        "name": "Prices",
+                        "value": [
+                            "**USD Current Price**: $ {{USD_PRICE}}",
+                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
+                        ]
+                    },
+                    {
+                        "name": "General Information",
+                        "value": [
+                            "**Token**: {{TOKEN}}",
+                            "**Game**: {{TOKEN_NAME}}",
+                            "**Plataform**: {{PLATAFORM}}",
+                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
+                        ]
+                    },
+                    {
+                        "name": "Market Information",
+                        "value": [
+                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
+                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
+                            "**Market Cap**: $ {{MARKET_CAP}}",
+                            "**Total Supply**: {{TOTAL_SUPPLY}}",
+                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
+                        ]
+                    },
+                    {
+                        "name": "Links",
+                        "value": [
+                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Trade Url**: {{TRADE_URL}}",
+                            "**Home Page**: {{HOMEPAGE}}",
+                            "**GitHub**: {{REPOSITORY}}"
+                        ]
+                    }
+                ]
+            },
             "info": {
                 "title": "{{COM:bot.name}} - Info",
                 "fields": [

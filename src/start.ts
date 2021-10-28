@@ -15,6 +15,7 @@ import {
     PlantVsUndeadCommand,
     CryptoCarsWorldCommand,
     BattleHeroCommand,
+    BombCryptoCommand,
 } from './commands';
 import {
     CommandHandler,
@@ -54,6 +55,7 @@ async function start(): Promise<void> {
         new PlantVsUndeadCommand(),
         new CryptoCarsWorldCommand(),
         new BattleHeroCommand(),
+        new BombCryptoCommand(),
     ].sort((a, b) => (a.data.name > b.data.name ? 1 : -1));
 
     // Event handlers
