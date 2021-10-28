@@ -436,6 +436,7 @@
             "cryptomines": "{{COM:commandDescs.cryptomines}}",
             "plantvsundead": "{{COM:commandDescs.plantvsundead}}",
             "cryptocarsworld": "{{COM:commandDescs.cryptocarsworld}}",
+            "battlehero": "{{COM:commandDescs.battlehero}}",
             "axieinfinity": "{{COM:commandDescs.axieinfinity}}",
             "bombcrypto": "{{COM:commandDescs.bombcrypto}}"
         },
