@@ -16,7 +16,9 @@
         "bombcrypto": "bombcrypto",
         "axieinfinity": "axieinfinity",
         "cryptoplanes": "cryptoplanes",
-        "cryptocars": "cryptocars"
+        "cryptocars": "cryptocars",
+        "thetanarena": "thetanarena",
+        "spaceportuniverse": "spaceportuniverse"
     },
     "commandDescs": {
         "dev": "View developer info.",
@@ -32,7 +34,9 @@
         "bombcrypto": "View Bomb Crypto Info",
         "axieinfinity": "View Axie Infinity Info",
         "cryptoplanes": "View Crypto Planes Info",
-        "cryptocars": "View Crypto Cars Info"
+        "cryptocars": "View Crypto Cars Info",
+        "thetanarena": "View Thetan Arena Info",
+        "spaceportuniverse": "View Space Port Universe Info"
     },
     "colors": {
         "success": "#00ff83",
