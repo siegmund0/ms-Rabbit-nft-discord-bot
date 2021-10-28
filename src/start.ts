@@ -16,6 +16,8 @@ import {
     CryptoCarsWorldCommand,
     BattleHeroCommand,
     BombCryptoCommand,
+    CryptoCarsCommand,
+    CryptoPlanesCommand,
 } from './commands';
 import { AxieInfinityCommand } from './commands/axieInfinity-command';
 import {
@@ -58,6 +60,8 @@ async function start(): Promise<void> {
         new BattleHeroCommand(),
         new BombCryptoCommand(),
         new AxieInfinityCommand(),
+        new CryptoCarsCommand(),
+        new CryptoPlanesCommand(),
     ].sort((a, b) => (a.data.name > b.data.name ? 1 : -1));
 
     // Event handlers

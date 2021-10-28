@@ -14,7 +14,9 @@
         "cryptocarsworld": "cryptocarsworld",
         "battlehero": "battlehero",
         "bombcrypto": "bombcrypto",
-        "axieinfinity": "axieinfinity"
+        "axieinfinity": "axieinfinity",
+        "cryptoplanes": "cryptoplanes",
+        "cryptocars": "cryptocars"
     },
     "commandDescs": {
         "dev": "View developer info.",
@@ -28,7 +30,9 @@
         "cryptocarsworld": "View Crypto Cars World Info",
         "battlehero": "View Battle Hero Info",
         "bombcrypto": "View Bomb Crypto Info",
-        "axieinfinity": "View Axie Infinity Info"
+        "axieinfinity": "View Axie Infinity Info",
+        "cryptoplanes": "View Crypto Planes Info",
+        "cryptocars": "View Crypto Cars Info"
     },
     "colors": {
         "success": "#00ff83",
