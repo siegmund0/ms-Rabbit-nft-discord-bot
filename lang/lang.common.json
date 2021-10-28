@@ -12,7 +12,8 @@
         "cryptomines": "cryptomines",
         "plantvsundead": "plantvsundead",
         "cryptocarsworld": "cryptocarsworld",
-        "battlehero": "battlehero"
+        "battlehero": "battlehero",
+        "axieinfinity": "axieinfinity"
     },
     "commandDescs": {
         "dev": "View developer info.",
@@ -24,7 +25,8 @@
         "cryptomines": "View CryptoMines Info",
         "plantvsundead": "View Plant vs Undead Info",
         "cryptocarsworld": "View Crypto Cars World Info",
-        "battlehero": "View Battle Hero Info"
+        "battlehero": "View Battle Hero Info",
+        "axieinfinity": "View Axie Infinity Info"
     },
     "colors": {
         "success": "#00ff83",
