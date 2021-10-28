@@ -13,7 +13,8 @@
         "plantvsundead": "plantvsundead",
         "cryptocarsworld": "cryptocarsworld",
         "battlehero": "battlehero",
-        "bombcrypto": "bombcrypto"
+        "bombcrypto": "bombcrypto",
+        "axieinfinity": "axieinfinity"
     },
     "commandDescs": {
         "dev": "View developer info.",
@@ -26,7 +27,8 @@
         "plantvsundead": "View Plant vs Undead Info",
         "cryptocarsworld": "View Crypto Cars World Info",
         "battlehero": "View Battle Hero Info",
-        "bombcrypto": "View Bomb Crypto Info"
+        "bombcrypto": "View Bomb Crypto Info",
+        "axieinfinity": "View Axie Infinity Info"
     },
     "colors": {
         "success": "#00ff83",

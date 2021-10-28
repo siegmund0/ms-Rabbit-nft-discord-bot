@@ -17,6 +17,7 @@ import {
     BattleHeroCommand,
     BombCryptoCommand,
 } from './commands';
+import { AxieInfinityCommand } from './commands/axieInfinity-command';
 import {
     CommandHandler,
     GuildJoinHandler,
@@ -56,6 +57,7 @@ async function start(): Promise<void> {
         new CryptoCarsWorldCommand(),
         new BattleHeroCommand(),
         new BombCryptoCommand(),
+        new AxieInfinityCommand(),
     ].sort((a, b) => (a.data.name > b.data.name ? 1 : -1));
 
     // Event handlers
