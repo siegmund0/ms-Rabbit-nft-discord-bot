@@ -37,7 +37,9 @@
                             "**/{{COM:commands.cryptocarsworld}}** - {{REF:commandDescs.cryptocarsworld}}",
                             "**/{{COM:commands.battlehero}}** - {{REF:commandDescs.battlehero}}",
                             "**/{{COM:commands.axieinfinity}}** - {{REF:commandDescs.axieinfinity}}",
-                            "**/{{COM:commands.bombcrypto}}** - {{REF:commandDescs.bombcrypto}}"
+                            "**/{{COM:commands.bombcrypto}}** - {{REF:commandDescs.bombcrypto}}",
+                            "**/{{COM:commands.cryptoplanes}}** - {{REF:commandDescs.cryptoplanes}}",
+                            "**/{{COM:commands.cryptocars}}** - {{REF:commandDescs.cryptocars}}"
                         ]
                     },
                     {
@@ -293,6 +295,86 @@
                     }
                 ]
             },
+            "cryptoplanes": {
+                "description": "Crypto Planes",
+                "fields": [
+                    {
+                        "name": "Prices",
+                        "value": [
+                            "**USD Current Price**: $ {{USD_PRICE}}",
+                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
+                        ]
+                    },
+                    {
+                        "name": "General Information",
+                        "value": [
+                            "**Token**: {{TOKEN}}",
+                            "**Game**: {{TOKEN_NAME}}",
+                            "**Plataform**: {{PLATAFORM}}",
+                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
+                        ]
+                    },
+                    {
+                        "name": "Market Information",
+                        "value": [
+                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
+                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
+                            "**Market Cap**: $ {{MARKET_CAP}}",
+                            "**Total Supply**: {{TOTAL_SUPPLY}}",
+                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
+                        ]
+                    },
+                    {
+                        "name": "Links",
+                        "value": [
+                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Trade Url**: {{TRADE_URL}}",
+                            "**Home Page**: {{HOMEPAGE}}",
+                            "**GitHub**: {{REPOSITORY}}"
+                        ]
+                    }
+                ]
+            },
+            "cryptocars": {
+                "description": "Crypto Cars",
+                "fields": [
+                    {
+                        "name": "Prices",
+                        "value": [
+                            "**USD Current Price**: $ {{USD_PRICE}}",
+                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
+                        ]
+                    },
+                    {
+                        "name": "General Information",
+                        "value": [
+                            "**Token**: {{TOKEN}}",
+                            "**Game**: {{TOKEN_NAME}}",
+                            "**Plataform**: {{PLATAFORM}}",
+                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
+                        ]
+                    },
+                    {
+                        "name": "Market Information",
+                        "value": [
+                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
+                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
+                            "**Market Cap**: $ {{MARKET_CAP}}",
+                            "**Total Supply**: {{TOTAL_SUPPLY}}",
+                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
+                        ]
+                    },
+                    {
+                        "name": "Links",
+                        "value": [
+                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Trade Url**: {{TRADE_URL}}",
+                            "**Home Page**: {{HOMEPAGE}}",
+                            "**GitHub**: {{REPOSITORY}}"
+                        ]
+                    }
+                ]
+            },
             "info": {
                 "title": "{{COM:bot.name}} - Info",
                 "fields": [
@@ -438,7 +520,9 @@
             "cryptocarsworld": "{{COM:commandDescs.cryptocarsworld}}",
             "battlehero": "{{COM:commandDescs.battlehero}}",
             "axieinfinity": "{{COM:commandDescs.axieinfinity}}",
-            "bombcrypto": "{{COM:commandDescs.bombcrypto}}"
+            "bombcrypto": "{{COM:commandDescs.bombcrypto}}",
+            "cryptoplanes": "{{COM:commandDescs.cryptoplanes}}",
+            "cryptocars": "{{COM:commandDescs.cryptocars}}"
         },
         "lists": {
             "languageItem": "**{{LANGUAGE_NAME}}** (`{{LANGUAGE_KEYWORD}}`)"
