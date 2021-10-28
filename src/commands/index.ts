@@ -9,3 +9,4 @@ export { CryptoMinesEthernalCommand } from './cryptoMines-command';
 export { PlantVsUndeadCommand } from './plantVsUndead-command';
 export { CryptoCarsWorldCommand } from './cryptoCarsWorld-command';
 export { BattleHeroCommand } from './battleHero-command';
+export { AxieInfinityCommand } from './axieInfinity-command';
