@@ -18,7 +18,9 @@
         "cryptoplanes": "cryptoplanes",
         "cryptocars": "cryptocars",
         "thetanarena": "thetanarena",
-        "spaceportuniverse": "spaceportuniverse"
+        "spaceportuniverse": "spaceportuniverse",
+        "wanakafarm": "wanakafarm",
+        "wanakafarmwairere": "wanakafarmwairere"
     },
     "commandDescs": {
         "dev": "View developer info.",
@@ -36,7 +38,9 @@
         "cryptoplanes": "View Crypto Planes Info",
         "cryptocars": "View Crypto Cars Info",
         "thetanarena": "View Thetan Arena Info",
-        "spaceportuniverse": "View Space Port Universe Info"
+        "spaceportuniverse": "View Space Port Universe Info",
+        "wanakafarm": "View Wanaka Farm Info",
+        "wanakafarmwairere": "View Wanaka Farm Wairere Info"
     },
     "colors": {
         "success": "#00ff83",
