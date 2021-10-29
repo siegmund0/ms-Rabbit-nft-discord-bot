@@ -15,3 +15,5 @@ export { CryptoCarsCommand } from './cryptoCars-command';
 export { CryptoPlanesCommand } from './cryptoPlanes-command';
 export { ThetanArenaCommand } from './thetanArena-command';
 export { SpacePortUniverseCommand } from './spacePortUniverse-command';
+export { WanakaFarmCommand } from './wanakaFarm-command';
+export { WanakaFarmWairereCommand } from './wanakaFarmWairere-command';
