@@ -20,6 +20,8 @@ import {
     CryptoPlanesCommand,
     ThetanArenaCommand,
     SpacePortUniverseCommand,
+    WanakaFarmCommand,
+    WanakaFarmWairereCommand,
 } from './commands';
 import { AxieInfinityCommand } from './commands/axieInfinity-command';
 import {
@@ -66,6 +68,8 @@ async function start(): Promise<void> {
         new CryptoPlanesCommand(),
         new ThetanArenaCommand(),
         new SpacePortUniverseCommand(),
+        new WanakaFarmCommand(),
+        new WanakaFarmWairereCommand(),
     ].sort((a, b) => (a.data.name > b.data.name ? 1 : -1));
 
     // Event handlers

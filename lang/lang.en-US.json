@@ -41,7 +41,9 @@
                             "**/{{COM:commands.cryptoplanes}}** - {{REF:commandDescs.cryptoplanes}}",
                             "**/{{COM:commands.cryptocars}}** - {{REF:commandDescs.cryptocars}}",
                             "**/{{COM:commands.thetanarena}}** - {{REF:commandDescs.thetanarena}}",
-                            "**/{{COM:commands.spaceportuniverse}}** - {{REF:commandDescs.spaceportuniverse}}"
+                            "**/{{COM:commands.spaceportuniverse}}** - {{REF:commandDescs.spaceportuniverse}}",
+                            "**/{{COM:commands.wanakafarm}}** - {{REF:commandDescs.wanakafarm}}",
+                            "**/{{COM:commands.wanakafarmwairere}}** - {{REF:commandDescs.wanakafarmwairere}}"
                         ]
                     },
                     {
@@ -457,6 +459,86 @@
                     }
                 ]
             },
+            "wanakafarm": {
+                "description": "Wanaka Farm",
+                "fields": [
+                    {
+                        "name": "Prices",
+                        "value": [
+                            "**USD Current Price**: $ {{USD_PRICE}}",
+                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
+                        ]
+                    },
+                    {
+                        "name": "General Information",
+                        "value": [
+                            "**Token**: {{TOKEN}}",
+                            "**Game**: {{TOKEN_NAME}}",
+                            "**Plataform**: {{PLATAFORM}}",
+                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
+                        ]
+                    },
+                    {
+                        "name": "Market Information",
+                        "value": [
+                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
+                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
+                            "**Market Cap**: $ {{MARKET_CAP}}",
+                            "**Total Supply**: {{TOTAL_SUPPLY}}",
+                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
+                        ]
+                    },
+                    {
+                        "name": "Links",
+                        "value": [
+                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Trade Url**: {{TRADE_URL}}",
+                            "**Home Page**: {{HOMEPAGE}}",
+                            "**GitHub**: {{REPOSITORY}}"
+                        ]
+                    }
+                ]
+            },
+            "wanakafarmwairere": {
+                "description": "Wanaka Farm Wairere",
+                "fields": [
+                    {
+                        "name": "Prices",
+                        "value": [
+                            "**USD Current Price**: $ {{USD_PRICE}}",
+                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
+                        ]
+                    },
+                    {
+                        "name": "General Information",
+                        "value": [
+                            "**Token**: {{TOKEN}}",
+                            "**Game**: {{TOKEN_NAME}}",
+                            "**Plataform**: {{PLATAFORM}}",
+                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
+                        ]
+                    },
+                    {
+                        "name": "Market Information",
+                        "value": [
+                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
+                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
+                            "**Market Cap**: $ {{MARKET_CAP}}",
+                            "**Total Supply**: {{TOTAL_SUPPLY}}",
+                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
+                        ]
+                    },
+                    {
+                        "name": "Links",
+                        "value": [
+                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Trade Url**: {{TRADE_URL}}",
+                            "**Home Page**: {{HOMEPAGE}}",
+                            "**GitHub**: {{REPOSITORY}}"
+                        ]
+                    }
+                ]
+            },
             "info": {
                 "title": "{{COM:bot.name}} - Info",
                 "fields": [
@@ -606,7 +688,9 @@
             "cryptoplanes": "{{COM:commandDescs.cryptoplanes}}",
             "cryptocars": "{{COM:commandDescs.cryptocars}}",
             "thetanarena": "{{COM:commandDescs.thetanarena}}",
-            "spaceportuniverse": "{{COM:commandDescs.spaceportuniverse}}"
+            "spaceportuniverse": "{{COM:commandDescs.spaceportuniverse}}",
+            "wanakafarm": "{{COM:commandDescs.wanakafarm}}",
+            "wanakafarmwairere": "{{COM:commandDescs.wanakafarmwairere}}"
         },
         "lists": {
             "languageItem": "**{{LANGUAGE_NAME}}** (`{{LANGUAGE_KEYWORD}}`)"
