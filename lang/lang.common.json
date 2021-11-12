@@ -20,7 +20,8 @@
         "thetanarena": "thetanarena",
         "spaceportuniverse": "spaceportuniverse",
         "wanakafarm": "wanakafarm",
-        "wanakafarmwairere": "wanakafarmwairere"
+        "wanakafarmwairere": "wanakafarmwairere",
+        "cointofish": "cointofish"
     },
     "commandDescs": {
         "dev": "View developer info.",
@@ -40,7 +41,8 @@
         "thetanarena": "View Thetan Arena Info",
         "spaceportuniverse": "View Space Port Universe Info",
         "wanakafarm": "View Wanaka Farm Info",
-        "wanakafarmwairere": "View Wanaka Farm Wairere Info"
+        "wanakafarmwairere": "View Wanaka Farm Wairere Info",
+        "cointofish": "View Coin To Fish Info"
     },
     "colors": {
         "success": "#00ff83",
