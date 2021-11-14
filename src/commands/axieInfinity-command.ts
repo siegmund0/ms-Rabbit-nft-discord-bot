@@ -1,9 +1,10 @@
 import { ApplicationCommandData, CommandInteraction } from 'discord.js';
+import { GamesConstantsEnum } from '../constants/EnumGames';
 
 import { EventData } from '../models/internal-models';
 import { Lang } from '../services';
 import { MessageUtils } from '../utils';
-import { AxieInfinityWebService } from '../webServices/AxieInfinityWebService';
+import GenericWebService from '../webServices/GenericWebService';
 import { Command } from './command';
 
 export class AxieInfinityCommand implements Command {
@@ -16,7 +17,7 @@ export class AxieInfinityCommand implements Command {
     public requirePerms = [];
 
     public async execute(intr: CommandInteraction, data: EventData): Promise<void> {
-        let response = await AxieInfinityWebService();
+        let response = await GenericWebService.getData(GamesConstantsEnum.AxieInfinity);
         let homepage = response.links.homepage[0];
         let repository = response.links.repos_url.github[0];
         homepage == null || undefined ? homepage = 'Homepage not found' : homepage;
