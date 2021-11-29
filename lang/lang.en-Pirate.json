@@ -44,7 +44,10 @@
                             "**/{{COM:commands.spaceportuniverse}}** - {{REF:commandDescs.spaceportuniverse}}",
                             "**/{{COM:commands.wanakafarm}}** - {{REF:commandDescs.wanakafarm}}",
                             "**/{{COM:commands.wanakafarmwairere}}** - {{REF:commandDescs.wanakafarmwairere}}",
-                            "**/{{COM:commands.cointofish}}** - {{REF:commandDescs.cointofish}}"
+                            "**/{{COM:commands.cointofish}}** - {{REF:commandDescs.cointofish}}",
+                            "**/{{COM:commands.monstaInfinite}}** - {{REF:commandDescs.monstaInfinite}}",
+                            "**/{{COM:commands.undergroundWarriors}}** - {{REF:commandDescs.undergroundWarriors}}",
+                            "**/{{COM:commands.binamon}}** - {{REF:commandDescs.binamon}}"
                         ]
                     },
                     {
@@ -580,6 +583,126 @@
                     }
                 ]
             },
+            "monstaInfinite": {
+                "description": "Monsta Infinite",
+                "fields": [
+                    {
+                        "name": "Prices",
+                        "value": [
+                            "**USD Current Price**: $ {{USD_PRICE}}",
+                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
+                        ]
+                    },
+                    {
+                        "name": "General Information",
+                        "value": [
+                            "**Token**: {{TOKEN}}",
+                            "**Game**: {{TOKEN_NAME}}",
+                            "**Plataform**: {{PLATAFORM}}",
+                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
+                        ]
+                    },
+                    {
+                        "name": "Market Information",
+                        "value": [
+                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
+                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
+                            "**Market Cap**: $ {{MARKET_CAP}}",
+                            "**Total Supply**: {{TOTAL_SUPPLY}}",
+                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
+                        ]
+                    },
+                    {
+                        "name": "Links",
+                        "value": [
+                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Trade Url**: {{TRADE_URL}}",
+                            "**Home Page**: {{HOMEPAGE}}",
+                            "**GitHub**: {{REPOSITORY}}"
+                        ]
+                    }
+                ]
+            },
+            "undergroundWarriors": {
+                "description": "CUnderground Warriors",
+                "fields": [
+                    {
+                        "name": "Prices",
+                        "value": [
+                            "**USD Current Price**: $ {{USD_PRICE}}",
+                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
+                        ]
+                    },
+                    {
+                        "name": "General Information",
+                        "value": [
+                            "**Token**: {{TOKEN}}",
+                            "**Game**: {{TOKEN_NAME}}",
+                            "**Plataform**: {{PLATAFORM}}",
+                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
+                        ]
+                    },
+                    {
+                        "name": "Market Information",
+                        "value": [
+                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
+                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
+                            "**Market Cap**: $ {{MARKET_CAP}}",
+                            "**Total Supply**: {{TOTAL_SUPPLY}}",
+                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
+                        ]
+                    },
+                    {
+                        "name": "Links",
+                        "value": [
+                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Trade Url**: {{TRADE_URL}}",
+                            "**Home Page**: {{HOMEPAGE}}",
+                            "**GitHub**: {{REPOSITORY}}"
+                        ]
+                    }
+                ]
+            },
+            "binamon": {
+                "description": "Binamon",
+                "fields": [
+                    {
+                        "name": "Prices",
+                        "value": [
+                            "**USD Current Price**: $ {{USD_PRICE}}",
+                            "**BNB Current Price**: BNB {{BNB_PRICE}}"
+                        ]
+                    },
+                    {
+                        "name": "General Information",
+                        "value": [
+                            "**Token**: {{TOKEN}}",
+                            "**Game**: {{TOKEN_NAME}}",
+                            "**Plataform**: {{PLATAFORM}}",
+                            "**Contract Address**: {{CONTRACT_ADDRESS}}"
+                        ]
+                    },
+                    {
+                        "name": "Market Information",
+                        "value": [
+                            "**Price Change 24 Hs**: % {{PRICE_CHANGE_24HS}}",
+                            "**Price Change 7 D**: % {{PRICE_CHANGE_7D}}",
+                            "**Market Cap**: $ {{MARKET_CAP}}",
+                            "**Total Supply**: {{TOTAL_SUPPLY}}",
+                            "**Circulating Supply**: {{CIRCULATING_SUPPLY}}"
+                        ]
+                    },
+                    {
+                        "name": "Links",
+                        "value": [
+                            "**Bscscan Page**: {{BSCSCAN_PAGE}}",
+                            "**Trade Url**: {{TRADE_URL}}",
+                            "**Home Page**: {{HOMEPAGE}}",
+                            "**GitHub**: {{REPOSITORY}}"
+                        ]
+                    }
+                ]
+            },
             "info": {
                 "title": "{{COM:bot.name}} - Info",
                 "fields": [
@@ -732,7 +855,10 @@
             "spaceportuniverse": "{{COM:commandDescs.spaceportuniverse}}",
             "wanakafarm": "{{COM:commandDescs.wanakafarm}}",
             "wanakafarmwairere": "{{COM:commandDescs.wanakafarmwairere}}",
-            "cointofish": "{{COM:commandDescs.cointofish}}"
+            "cointofish": "{{COM:commandDescs.cointofish}}",
+            "monstaInfinite": "{{COM:commandDescs.monstaInfinite}}",
+            "undergroundWarriors": "{{COM:commandDescs.undergroundWarriors}}",
+            "binamon": "{{COM:commandDescs.binamon}}"
         },
         "lists": {
             "languageItem": "**{{LANGUAGE_NAME}}** (`{{LANGUAGE_KEYWORD}}`)"
