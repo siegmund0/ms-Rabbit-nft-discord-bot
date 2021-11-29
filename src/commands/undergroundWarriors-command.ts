@@ -9,8 +9,8 @@ import { Command } from './command';
 
 export class UndergroundWarriorsCommand implements Command {
     public data: ApplicationCommandData = {
-        name: Lang.getCom('commands.undergroundWarriors'),
-        description: Lang.getCom('commandDescs.undergroundWarriors'),
+        name: Lang.getCom('commands.undergroundwarriors'),
+        description: Lang.getCom('commandDescs.undergroundwarriors'),
     };
     public requireDev = false;
     public requireGuild = false;
@@ -24,7 +24,7 @@ export class UndergroundWarriorsCommand implements Command {
         repository == null || undefined ? repository = 'Repository not found' : repository;
         await MessageUtils.sendIntr(
             intr,
-            Lang.getEmbed('displayEmbeds.undergroundWarriors', data.lang(), {
+            Lang.getEmbed('displayEmbeds.undergroundwarriors', data.lang(), {
                 TOKEN: response.symbol,
                 TOKEN_NAME: response.name,
                 PLATAFORM: response.asset_platform_id,

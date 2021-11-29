@@ -9,8 +9,8 @@ import { Command } from './command';
 
 export class MonstaInfiniteCommand implements Command {
     public data: ApplicationCommandData = {
-        name: Lang.getCom('commands.monstaInfinite'),
-        description: Lang.getCom('commandDescs.monstaInfinite'),
+        name: Lang.getCom('commands.monstainfinite'),
+        description: Lang.getCom('commandDescs.monstainfinite'),
     };
     public requireDev = false;
     public requireGuild = false;
@@ -24,7 +24,7 @@ export class MonstaInfiniteCommand implements Command {
         repository == null || undefined ? repository = 'Repository not found' : repository;
         await MessageUtils.sendIntr(
             intr,
-            Lang.getEmbed('displayEmbeds.monstaInfinite', data.lang(), {
+            Lang.getEmbed('displayEmbeds.monstainfinite', data.lang(), {
                 TOKEN: response.symbol,
                 TOKEN_NAME: response.name,
                 PLATAFORM: response.asset_platform_id,
