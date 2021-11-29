@@ -22,8 +22,8 @@
         "wanakafarm": "wanakafarm",
         "wanakafarmwairere": "wanakafarmwairere",
         "cointofish": "cointofish",
-        "monstaInfinite": "monstaInfinite",
-        "undergroundWarriors": "undergroundWarriors",
+        "monstainfinite": "monstainfinite",
+        "undergroundwarriors": "undergroundwarriors",
         "binamon": "binamon"
     },
     "commandDescs": {
@@ -46,8 +46,8 @@
         "wanakafarm": "View Wanaka Farm Info",
         "wanakafarmwairere": "View Wanaka Farm Wairere Info",
         "cointofish": "View Coin To Fish Info",
-        "monstaInfinite": "View Monsta Infinite Info",
-        "undergroundWarriors": "View Underground Warriors Info",
+        "monstainfinite": "View Monsta Infinite Info",
+        "undergroundwarriors": "View Underground Warriors Info",
         "binamon": "View Binamon Info"
     },
     "colors": {

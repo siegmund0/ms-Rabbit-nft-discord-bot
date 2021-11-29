@@ -45,8 +45,8 @@
                             "**/{{COM:commands.wanakafarm}}** - {{REF:commandDescs.wanakafarm}}",
                             "**/{{COM:commands.wanakafarmwairere}}** - {{REF:commandDescs.wanakafarmwairere}}",
                             "**/{{COM:commands.cointofish}}** - {{REF:commandDescs.cointofish}}",
-                            "**/{{COM:commands.monstaInfinite}}** - {{REF:commandDescs.monstaInfinite}}",
-                            "**/{{COM:commands.undergroundWarriors}}** - {{REF:commandDescs.undergroundWarriors}}",
+                            "**/{{COM:commands.monstainfinite}}** - {{REF:commandDescs.monstainfinite}}",
+                            "**/{{COM:commands.undergroundwarriors}}** - {{REF:commandDescs.undergroundwarriors}}",
                             "**/{{COM:commands.binamon}}** - {{REF:commandDescs.binamon}}"
                         ]
                     },
@@ -583,7 +583,7 @@
                     }
                 ]
             },
-            "monstaInfinite": {
+            "monstainfinite": {
                 "description": "Monsta Infinite",
                 "fields": [
                     {
@@ -623,7 +623,7 @@
                     }
                 ]
             },
-            "undergroundWarriors": {
+            "undergroundwarriors": {
                 "description": "CUnderground Warriors",
                 "fields": [
                     {
@@ -856,8 +856,8 @@
             "wanakafarm": "{{COM:commandDescs.wanakafarm}}",
             "wanakafarmwairere": "{{COM:commandDescs.wanakafarmwairere}}",
             "cointofish": "{{COM:commandDescs.cointofish}}",
-            "monstaInfinite": "{{COM:commandDescs.monstaInfinite}}",
-            "undergroundWarriors": "{{COM:commandDescs.undergroundWarriors}}",
+            "monstainfinite": "{{COM:commandDescs.monstainfinite}}",
+            "undergroundwarriors": "{{COM:commandDescs.undergroundwarriors}}",
             "binamon": "{{COM:commandDescs.binamon}}"
         },
         "lists": {
