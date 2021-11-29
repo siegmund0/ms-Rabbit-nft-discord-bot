@@ -17,3 +17,7 @@ export { ThetanArenaCommand } from './thetanArena-command';
 export { SpacePortUniverseCommand } from './spacePortUniverse-command';
 export { WanakaFarmCommand } from './wanakaFarm-command';
 export { WanakaFarmWairereCommand } from './wanakaFarmWairere-command';
+export { CoinToFishCommand } from './coinToFish-command';
+export { MonstaInfiniteCommand } from './monstaInfinity-command';
+export { UndergroundWarriorsCommand } from './undergroundWarriors-command';
+export { BinamonCommand } from './binamon-command';

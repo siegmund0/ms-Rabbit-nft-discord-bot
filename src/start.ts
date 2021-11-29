@@ -22,9 +22,12 @@ import {
     SpacePortUniverseCommand,
     WanakaFarmCommand,
     WanakaFarmWairereCommand,
+    AxieInfinityCommand,
+    MonstaInfiniteCommand,
+    UndergroundWarriorsCommand,
+    BinamonCommand,
+    CoinToFishCommand,
 } from './commands';
-import { AxieInfinityCommand } from './commands/axieInfinity-command';
-import { CoinToFishCommand } from './commands/coinToFish-command';
 import {
     CommandHandler,
     GuildJoinHandler,
@@ -72,6 +75,9 @@ async function start(): Promise<void> {
         new WanakaFarmCommand(),
         new WanakaFarmWairereCommand(),
         new CoinToFishCommand(),
+        new MonstaInfiniteCommand(),
+        new UndergroundWarriorsCommand(),
+        new BinamonCommand()
     ].sort((a, b) => (a.data.name > b.data.name ? 1 : -1));
 
     // Event handlers
