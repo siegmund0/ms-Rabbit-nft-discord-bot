@@ -12,4 +12,7 @@ export enum GamesConstantsEnum {
     ThetanArena = 'thetan-arena',
     WanakaFarmWairere = 'wanaka-farm-wairere-token',
     WanakaFarm = 'wanaka-farm',
+    MonstaInfinite = 'monsta-infinite',
+    UndergroundWarriors = 'underground-warriors',
+    Binamon = 'binamon',
 }

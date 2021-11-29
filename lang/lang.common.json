@@ -21,7 +21,10 @@
         "spaceportuniverse": "spaceportuniverse",
         "wanakafarm": "wanakafarm",
         "wanakafarmwairere": "wanakafarmwairere",
-        "cointofish": "cointofish"
+        "cointofish": "cointofish",
+        "monstaInfinite": "monstaInfinite",
+        "undergroundWarriors": "undergroundWarriors",
+        "binamon": "binamon"
     },
     "commandDescs": {
         "dev": "View developer info.",
@@ -42,7 +45,10 @@
         "spaceportuniverse": "View Space Port Universe Info",
         "wanakafarm": "View Wanaka Farm Info",
         "wanakafarmwairere": "View Wanaka Farm Wairere Info",
-        "cointofish": "View Coin To Fish Info"
+        "cointofish": "View Coin To Fish Info",
+        "monstaInfinite": "View Monsta Infinite Info",
+        "undergroundWarriors": "View Underground Warriors Info",
+        "binamon": "View Binamon Info"
     },
     "colors": {
         "success": "#00ff83",
