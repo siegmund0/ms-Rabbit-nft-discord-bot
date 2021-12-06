@@ -1,5 +1,6 @@
 import { ApplicationCommandData, CommandInteraction } from 'discord.js';
 import { GamesConstantsEnum } from '../constants/EnumGames';
+import { MessageLogsHandler } from '../events/message-logs-handler';
 
 import { EventData } from '../models/internal-models';
 import { Lang } from '../services';
